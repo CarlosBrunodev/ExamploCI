@@ -53,4 +53,6 @@ jobs:
       env:
         HEROKU_APP_NAME: ${{ secrets.HEROKU_APP_NAME }}
     - name: Push to Heroku
+      run: cd ./frontend
+    - name: Push to heroku2  
       run: git push heroku main
