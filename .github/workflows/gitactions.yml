@@ -30,7 +30,7 @@ jobs:
     - run: cd ./frontend && yarn test    
 
 # .github/workflows/heroku-deploy.yml
-
+    - run: cd ./frontend && sudo cp package.json ../../ExampleCI
     - name: Check out repository
       uses: actions/checkout@v2
     - name: Deploy to Heroku
