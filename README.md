@@ -1,3 +1,3 @@
-# CICD For Real
+# Example CI/CD from github actions 
 
-Teste
+Test
