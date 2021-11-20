@@ -3,5 +3,5 @@ console.log('Build me up!!!!')
 
 console.log(
     'Resultado]',
-    execSync('ls -la && cd ../ && ls -la').toString()
+    execSync('ls -la && cd ../ && ls').toString()
 );
